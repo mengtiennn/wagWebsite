@@ -1,5 +1,4 @@
 <template>
-  <!-- test -->
   <div class="wrapper desktop:pt-[64px]">
     <div class="banner pt-[6rem] bg-[#e7750a] tablet:!pb-[3rem] tablet:!pt-[6rem]">
       <div class="flex flex-col justify-center items-center mb-5">

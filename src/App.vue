@@ -1,6 +1,8 @@
 <script setup>
 import { RouterView } from 'vue-router'
-import { onMounted } from 'vue'
+import navHeader from '@/components/common/navHeader.vue'
+import bottomFooter from '@/components/common/bottomFooter.vue'
+// import { onMounted } from 'vue'
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'
 // onMounted(async () => {
@@ -9,7 +11,9 @@ import { onMounted } from 'vue'
 </script>
 
 <template>
+  <navHeader/>
   <RouterView />
+  <bottomFooter/>
 </template>
 <style scoped>
 
